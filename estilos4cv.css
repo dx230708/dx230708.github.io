@@ -1,0 +1,49 @@
+/** asi con un asterisco, se aplica una propiedad a todos los elementos de un html
+pero si algun elemento ya tenia definido otra propiedad diferente, la respeta, 
+por ejemplo p y h1 en este caso */
+*{ 
+    color: rgb(226, 43, 125);
+}
+
+body {
+    background-color: rgb(151, 186, 210);
+}
+/** tambien se pueden compartir propiedades, separando los elementos con comas */
+p, span {  
+    color: rgb(18, 17, 17);
+    width: 800px;
+}
+
+/** Ejemplo de parrafo distinto al resto */
+#mio {
+    color: chocolate;
+    font-size: 55px;
+    border: 2px solid gold;
+    }
+
+/** Ejemplo de clases */
+.clase1 {
+    color: hotpink;
+    font-size: 35px;
+    border: 2px solid aqua;
+}
+
+/** uso de tipografia Google fonts-Se copia y pega desde el tipo elegido en font fammily*/
+h1 {font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    color: grey;
+}
+    
+section {
+        width: 900px;
+        border: 35px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+    
+
+
+/** asi se escriben comentarios dentro de un archivo css */
